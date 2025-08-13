@@ -161,6 +161,8 @@ jobs:
           echo "Auto SHA: $AUTO_SHA"
           sed -i "/@icon/ s#/[a-f0-9]\{40\}/#/${AUTO_SHA}/#g" dist/BlueMarble.user.js src/BlueMarble.meta.js
           sed -i "/@resource/ s#/[a-f0-9]\{40\}/#/${AUTO_SHA}/#g" dist/BlueMarble.user.js src/BlueMarble.meta.js
+          # Update repository URLs to use the current repository
+          sed -i "s#SwingTheVine/Wplace-BlueMarble#${{ github.repository }}#g" dist/BlueMarble.user.js src/BlueMarble.meta.js
           echo "Updated resourceLinkSHA:"
           grep "@icon" dist/BlueMarble.user.js src/BlueMarble.meta.js
           grep "@resource" dist/BlueMarble.user.js src/BlueMarble.meta.js
