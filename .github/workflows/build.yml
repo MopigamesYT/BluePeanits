@@ -164,8 +164,8 @@ jobs:
           # Update repository URLs to use the current repository
           sed -i "s#SwingTheVine/Wplace-BlueMarble#${{ github.repository }}#g" dist/BlueMarble.user.js src/BlueMarble.meta.js
           echo "Updated resourceLinkSHA:"
-          grep "@icon" dist/BlueMarble.user.js src/BlueMarble.meta.js
-          grep "@resource" dist/BlueMarble.user.js src/BlueMarble.meta.js
+          grep "@icon" dist/BlueMarble.user.js src/BlueMarble.meta.js || echo "No @icon tags found"
+          grep "@resource" dist/BlueMarble.user.js src/BlueMarble.meta.js || echo "No @resource tags found"
         env:
           AUTO_SHA: ${{ env.AUTO_SHA }}
 
