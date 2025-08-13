@@ -18,6 +18,7 @@ export default class Template {
    * @param {Object} [params.chunked=null] - The affected chunks of the template, and their template for each chunk
    * @param {number} [params.tileSize=1000] - The size of a tile in pixels (assumes square tiles)
    * @param {number} [params.pixelCount=0] - Total number of pixels in the template (calculated automatically during processing)
+   * @param {boolean} [params.enabled=true] - Whether the template is enabled for display
    * @since 0.65.2
    */
   constructor({
@@ -29,6 +30,7 @@ export default class Template {
     coords = null,
     chunked = null,
     tileSize = 1000,
+    enabled = true,
   } = {}) {
     this.displayName = displayName;
     this.sortID = sortID;
@@ -39,6 +41,7 @@ export default class Template {
     this.chunked = chunked;
     this.tileSize = tileSize;
     this.pixelCount = 0; // Total pixel count in template
+    this.enabled = enabled; // Whether template is enabled for display
   }
 
   /** Creates chunks of the template for each tile.

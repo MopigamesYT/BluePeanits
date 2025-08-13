@@ -50,18 +50,18 @@
 <h1>Contributing</h1>
 <a href="https://github.com/SwingTheVine/Wplace-BlueMarble/blob/main/LICENSE.txt" target="_blank" rel="noopener noreferrer"><img alt="Software License: MPL-2.0" src="https://img.shields.io/badge/Software_License-MPL--2.0-slateblue?style=flat"></a>
 <p>
-  Thank you for wanting to contribute to the userscript "Blue Marble"! It means a lot to me that someone likes my project enough to want to help it grow. If you haven't already done so, consider joining our Discord. You can ask questions about the userscript there and receive feedback.
+  Thank you for wanting to contribute to the userscript "Blue Peanits"! It means a lot to me that someone likes my project enough to want to help it grow. If you haven't already done so, consider joining our Discord. You can ask questions about the userscript there and receive feedback.
   <br>
-  <b>Note</b>: If you are using AI, and you want to tell the AI how the codebase files are related to each-other, go to the <code>Class diagram of relationships for Blue Marble</code> diagram in the chart section of this file. Copy the chart, and give it to the AI.
+  <b>Note</b>: If you are using AI, and you want to tell the AI how the codebase files are related to each-other, go to the <code>Class diagram of relationships for Blue Peanits</code> diagram in the chart section of this file. Copy the chart, and give it to the AI.
 </p>
 
 <h2>Summary</h2>
 <p>
   <ul>
-    <li>I don't want to waste your time, so double check with me before starting a big change like adding a new feature. For example, imagine you spend 50 hours making a bot that automatically places pixels, then your pull request was rejected because a bot that automatically places pixles does not align with the "Mission" of Blue Marble. That would be sad :(</li>
+    <li>I don't want to waste your time, so double check with me before starting a big change like adding a new feature. For example, imagine you spend 50 hours making a bot that automatically places pixels, then your pull request was rejected because a bot that automatically places pixles does not align with the "Mission" of Blue Peanits. That would be sad :(</li>
     <li>Follow the style of the project. E.g., if all overlays are made by calling `Overlay()`, and you want to make a new overlay, you should probably call `Overlay()` as well.</li>
     <li>Low quality code will be rejected.</li>
-    <li>You can find documentation for Blue Marble <a href="https://swingthevine.github.io/Wplace-BlueMarble/index.html" target="_blank" rel="noopener noreferrer">here</a>.</li>
+    <li>You can find documentation for Blue Peanits <a href="https://swingthevine.github.io/Wplace-BlueMarble/index.html" target="_blank" rel="noopener noreferrer">here</a>.</li>
   </ul>
 </p>
 
@@ -79,7 +79,7 @@
 <h2>What Can I Contribute?</h2>
 <h3>Programming</h3>
   <p>
-    Most of the work to be done in this userscript is related to programming. It is helpful to have a background in programming, but not required. If you are looking to learn JavaScript and its syntax, check out this <a href="https://roadmap.sh/javascript" target="_blank" rel="noopener noreferrer">roadmap for learning JavaScript</a>. We strongly recommend that you understand functions, methods, classes, and Object-Oriented-Programming if you plan to implement a brand new feature. More technical knowledge like method chaining and lambda expressions are useful but not required. You can find the documentation for Blue Marble <a href="https://swingthevine.github.io/Wplace-BlueMarble/index.html" target="_blank" rel="noopener noreferrer">here</a>.
+    Most of the work to be done in this userscript is related to programming. It is helpful to have a background in programming, but not required. If you are looking to learn JavaScript and its syntax, check out this <a href="https://roadmap.sh/javascript" target="_blank" rel="noopener noreferrer">roadmap for learning JavaScript</a>. We strongly recommend that you understand functions, methods, classes, and Object-Oriented-Programming if you plan to implement a brand new feature. More technical knowledge like method chaining and lambda expressions are useful but not required. You can find the documentation for Blue Peanits <a href="https://swingthevine.github.io/Wplace-BlueMarble/index.html" target="_blank" rel="noopener noreferrer">here</a>.
   </p>
 <h3>Translation</h3>
 <p>
@@ -141,11 +141,11 @@
 
 <h2>Production Enviroment</h2>
 <p>
-  Here lies information that may be of interest to those who wish to modify Blue Marble.
+  Here lies information that may be of interest to those who wish to modify Blue Peanits.
 
   <h3>Npm Run</h3>
   <p>
-    Running <code>npm run build</code> will compile Blue Marble. The compiled files can be found in the <code>dist/</code> directory. Running <code>npm run patch</code> will increment the patch version, and compile Blue Marble.
+    Running <code>npm run build</code> will compile Blue Peanits. The compiled files can be found in the <code>dist/</code> directory. Running <code>npm run patch</code> will increment the patch version, and compile Blue Peanits.
   </p>
 
   <h3>Charts</h3>
@@ -156,7 +156,7 @@
 
 <!-- https://mermaid.js.org/syntax/classDiagram.html -->
 
-Class diagram of relationships for Blue Marble:
+Class diagram of relationships for Blue Peanits:
 (last updated 0.74.0)
 ```mermaid
 ---
@@ -227,7 +227,7 @@ classDiagram
   Template ..> utils : calls uint8ToBase64()
 ```
 
-Class diagram of relationships for Blue Marble's compiler/builder:
+Class diagram of relationships for Blue Peanits's compiler/builder:
 (last updated 0.74.0)
 ```mermaid
 ---
@@ -317,7 +317,7 @@ classDiagram
 
 <h2>Development Environment</h2>
 <p>
-  This is what SwingTheVine uses to program Blue Marble. You don't have to use the exact same thing. This is provided for reference.
+  This is what SwingTheVine uses to program Blue Peanits. You don't have to use the exact same thing. This is provided for reference.
 
   <h3>IDE</h3>
   Visual Studio Code<br>
