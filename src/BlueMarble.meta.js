@@ -7,7 +7,7 @@
 // @license      MPL-2.0
 // @supportURL   https://discord.gg/tpeBPy46hf
 // @homepageURL  https://github.com/MopigamesYT/BluePeanits
-// @icon         https://raw.githubusercontent.com/MopigamesYT/BluePeanits/e936688dc67a3f7aefd65afc8b96c23530674605/dist/assets/Favicon.png
+// @icon         https://raw.githubusercontent.com/MopigamesYT/BluePeanits/22adac281cc822bcb3064983437a92c76fae9f79/dist/assets/Favicon.png
 // @updateURL    https://raw.githubusercontent.com/MopigamesYT/BluePeanits/main/dist/BlueMarble.user.js
 // @downloadURL  https://raw.githubusercontent.com/MopigamesYT/BluePeanits/main/dist/BlueMarble.user.js
 // @run-at       document-start
